@@ -15,7 +15,6 @@
 [![NumPy](https://img.shields.io/badge/NumPy-1.24%2B-013243?style=flat-square&logo=numpy)](https://numpy.org)
 [![SciPy](https://img.shields.io/badge/SciPy-1.10%2B-8CAAE6?style=flat-square&logo=scipy)](https://scipy.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-00d4aa?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/ibnshafi/helios?style=flat-square&color=yellow)](https://github.com/ibnshafi/helios/stargazers)
 
 [**Quick Start**](#-quick-start) · [**Demo**](#-interactive-dashboard) · [**Architecture**](#-architecture) · [**Contribute**](#-contributing)
 
@@ -25,9 +24,7 @@
 
 ## What is this?
 
-HELIOS (originally codenamed CHIRON) is a **research-grade, fully-integrated 6-DOF robot arm simulator** built in pure Python. Every module — from DH-parameter kinematics to recursive Newton-Euler dynamics to a live impedance controller — is wired into a single interactive Matplotlib dashboard you can run in under a minute.
-
-Pull it, run it, break it. Then send a PR.
+HELIOS (originally codenamed CHIRON) is a **fully-integrated 6-DOF robot arm simulator** built in pure Python. Every module — from DH-parameter kinematics to recursive Newton-Euler dynamics to a live impedance controller — is wired into a single interactive Matplotlib dashboard you can run in under a minute.
 
 ```
 Joint sliders  →  FK  →  Jacobian  →  IK (DLS)  →  Impedance Control  →  Live 3D Plot
@@ -59,7 +56,7 @@ Joint sliders  →  FK  →  Jacobian  →  IK (DLS)  →  Impedance Control  �
 
 ```bash
 # 1. Clone
-git clone https://github.com/ibnshafi/helios.git
+git clone https://github.com/hexa3/helios.git
 cd helios
 
 # 2. Install dependencies (no exotic packages)
@@ -246,7 +243,7 @@ Please keep new modules consistent with the existing pattern:
 - NumPy arrays in, NumPy arrays out
 - A short docstring explaining inputs/outputs and units
 
-If you're unsure where to start, check the [open issues](https://github.com/ibnshafi/helios/issues) — items tagged `good first issue` are ready to pick up.
+If you're unsure where to start, check the [open issues](https://github.com/hexa3/helios/issues) — items tagged `good first issue` are ready to pick up.
 
 ---
 
@@ -254,14 +251,4 @@ If you're unsure where to start, check the [open issues](https://github.com/ibns
 
 [MIT](LICENSE)
 
-Part of a robotics & simulation series with [torque](https://github.com/ibnshafi/torque), [drag_sim](https://github.com/ibnshafi/drag_sim), and [block_craftz](https://github.com/ibnshafi/block_craftz).
-
----
-
-<div align="center">
-
-**If this saved you hours of robotics math, consider leaving a ⭐**
-
-Built with ♥ for the open robotics community
-
-</div>
+Part of a robotics & simulation series with [torque](https://github.com/hexa3/torque), [drag_sim](https://github.com/hexa3/drag_sim), and [block_craftz](https://github.com/hexa3/block_craftz).
