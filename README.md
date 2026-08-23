@@ -7,16 +7,14 @@
 ██╔══██║██╔══╝  ██║     ██║██║   ██║╚════██║
 ██║  ██║███████╗███████╗██║╚██████╔╝███████║
 ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚══════╝
-         / C H I R O N
 ```
 
-**6-DOF Collaborative Robot Arm — Kinematic, Control & Dynamic Validation**
+**HELIOS — 6-DOF Collaborative Robot Arm: Kinematics, Dynamics & Control**
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![NumPy](https://img.shields.io/badge/NumPy-1.24%2B-013243?style=flat-square&logo=numpy)](https://numpy.org)
 [![SciPy](https://img.shields.io/badge/SciPy-1.10%2B-8CAAE6?style=flat-square&logo=scipy)](https://scipy.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-00d4aa?style=flat-square)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](CONTRIBUTING.md)
 [![Stars](https://img.shields.io/github/stars/ibnshafi/helios?style=flat-square&color=yellow)](https://github.com/ibnshafi/helios/stargazers)
 
 [**Quick Start**](#-quick-start) · [**Demo**](#-interactive-dashboard) · [**Architecture**](#-architecture) · [**Contribute**](#-contributing)
@@ -27,7 +25,7 @@
 
 ## What is this?
 
-HELIOS/CHIRON is a **research-grade, fully-integrated 6-DOF robot arm simulator** built in pure Python. Every module — from DH-parameter kinematics to recursive Newton-Euler dynamics to a live impedance controller — is wired into a single interactive Matplotlib dashboard you can run in under a minute.
+HELIOS (originally codenamed CHIRON) is a **research-grade, fully-integrated 6-DOF robot arm simulator** built in pure Python. Every module — from DH-parameter kinematics to recursive Newton-Euler dynamics to a live impedance controller — is wired into a single interactive Matplotlib dashboard you can run in under a minute.
 
 Pull it, run it, break it. Then send a PR.
 
@@ -254,7 +252,9 @@ If you're unsure where to start, check the [open issues](https://github.com/ibns
 
 ## 📄 License
 
-ibnshafi - signed
+[MIT](LICENSE)
+
+Part of a robotics & simulation series with [torque](https://github.com/ibnshafi/torque), [drag_sim](https://github.com/ibnshafi/drag_sim), and [block_craftz](https://github.com/ibnshafi/block_craftz).
 
 ---
 
