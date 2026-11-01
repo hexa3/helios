@@ -252,3 +252,7 @@ If you're unsure where to start, check the [open issues](https://github.com/hexa
 [MIT](LICENSE)
 
 Part of a robotics & simulation series with [torque](https://github.com/hexa3/torque), [drag_sim](https://github.com/hexa3/drag_sim), and [block_craftz](https://github.com/hexa3/block_craftz).
+
+---
+
+<p align="center">Built by <a href="https://sheheryar.xyz">Sheheryar</a> · <a href="https://github.com/hexa3">github.com/hexa3</a></p>
